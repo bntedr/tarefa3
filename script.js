@@ -12,7 +12,7 @@ let valor3 = 2
 let valor4 = 10
 
 let media = (valor1 + valor2 + valor3 + valor4) / 4
-console.log("O valor da média é",media)*/
+console.log("O valor da média é",media)
 
 /*Exemplo
 let idade = 15
