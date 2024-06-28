@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        /*let nota1 = Number(prompt("Digite a primeira nota:"))
+        let nota2 = Number(prompt("Digite a segunda nota:"))
+        let nota3 = Number(prompt("Digite a terceira nota:"))
+        let nota4 = Number(prompt("Digite a quarta nota:"))
+        let media = (nota1+nota2+nota3+nota4)/4
+        document.write(media)*/
+        let opcao = prompt("Qual a sua permissão?")
+        opcao = opcao.toLocaleLowerCase()
+        switch(opcao){
+            case "gerente":
+                document.write("Você tem permissão de gerente!")
+                break;
+            case "diretor":
+                document.write("Você tem permissão de diretor!")
+                break;
+            case "comum":
+                document.write("Você tem permissão de comum!")
+                break;
+            default:
+                document.write("Você não tem permissão!")
+        }
+    </script>
+<body>
+    
+</body>
+</html>
