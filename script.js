@@ -6,13 +6,21 @@ console.log("Nome:",nome)
 console.log("Idade:",idade)
 console.log("Estado Civil:",estado_civil)
 
+//Exercício2
 let valor1 = 4
 let valor2 = 5
 let valor3 = 2
-let valor4 = 10
 
-let media = (valor1 + valor2 + valor3 + valor4) / 4
+let media = (valor1 + valor2 + valor3) / 3
 console.log("O valor da média é",media)
+
+//Exercício3
+let senha= 1234
+if(senha === 1234){
+    console.log("ACESSO PERMITIDO")
+}else{
+    console.log("ACESSO NEGADO")
+}
 
 /*Exemplo
 let idade = 15
@@ -25,9 +33,9 @@ if (idade >= 18){
     console.log(`Sua idade é ${idade}!`)
 } else if (idade === 15) {
     console.log("Sua idade é 15!!")
-}*/
+}
 
-//Exerício2
+Exerício2
 let cargo = "diretor"
 switch (cargo) {
     case "gerente":
@@ -41,4 +49,4 @@ switch (cargo) {
         break
     default:
         console.log("Permissão Inválida!")
-}
+}*/
