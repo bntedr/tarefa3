@@ -25,7 +25,7 @@ if (idade >= 18){
     console.log(`Sua idade é ${idade}!`)
 } else if (idade === 15) {
     console.log("Sua idade é 15!!")
-}*/
+}
 
 //Exerício2
 let cargo = "diretor"
@@ -41,4 +41,4 @@ switch (cargo) {
         break
     default:
         console.log("Permissão Inválida!")
-}
+}*/
